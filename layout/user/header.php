@@ -25,6 +25,14 @@ require_once dirname(__DIR__) ."/../include/web.php";
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous"
         />
+        <style>
+            *{
+                box-sizing: border-box;
+                padding: 0;
+                margin: 0;
+                overflow-x: hidden;
+            }
+        </style>
     </head>
 
     <body class="bg-info">

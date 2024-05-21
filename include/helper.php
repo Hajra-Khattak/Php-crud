@@ -31,4 +31,8 @@ function REFRESH_URL(int $sec, string $url){
     header("REFRESH: {$sec}, url={$url}");
 }
 
+function redirect_url(string $url){
+    header("Location:{$url}");
+}
+
 ?>
